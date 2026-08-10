@@ -6,7 +6,7 @@ A user mocked up designs in HTML/CSS/JS using an AI design tool, then exported t
 
 ## What you should do — IMPORTANT
 
-**Read `website-design-feedback/project/Home.dc.html` in full.** The user had this file open when they triggered the handoff, so it's almost certainly the primary design they want built. Read it top to bottom — don't skim. Then **follow its imports**: open every file it pulls in (shared components, CSS, scripts) so you understand how the pieces fit together before you start implementing.
+**Read `project/Home.dc.html` in full.** The user had this file open when they triggered the handoff, so it's almost certainly the primary design they want built. Read it top to bottom — don't skim. Then **follow its imports**: open every file it pulls in (shared components, CSS, scripts) so you understand how the pieces fit together before you start implementing.
 
 **If anything is ambiguous, ask the user to confirm before you start implementing.** It's much cheaper to clarify scope up front than to build the wrong thing.
 
@@ -18,5 +18,33 @@ The design medium is **HTML/CSS/JS** — these are prototypes, not production co
 
 ## Bundle contents
 
-- `website-design-feedback/README.md` — this file
-- `website-design-feedback/project/` — the `Website Design Feedback` project files (HTML prototypes, assets, components)
+- `README.md` — this file
+- `index.html` — site entry point; redirects to `project/Home.dc.html` so GitHub Pages serves the design
+- `project/` — the `Website Design Feedback` project files (HTML prototypes, assets, components)
+
+## Viewing the prototypes
+
+Live: https://jackdau.github.io/yourgp-group-website/
+
+Locally, serve over HTTP rather than opening the files directly — `support.js`
+fetches React from a CDN and needs a real origin:
+
+```bash
+python -m http.server 8000
+# then open http://localhost:8000/
+```
+
+## Repo notes
+
+The previous production site (`index.html`, six page directories, `css/`, `js/`,
+`CNAME`, and the SEO files) was replaced by this bundle. It is tagged `site-v1`
+and remains recoverable:
+
+```bash
+git checkout site-v1 -- .        # restore all of it
+git show site-v1:CNAME           # → ygp.au
+```
+
+`CNAME` must be restored to the repo root before ygp.au is pointed at GitHub
+Pages, or the custom domain will not bind. While it is absent, the github.io
+URL above serves the site directly.
