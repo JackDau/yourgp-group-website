@@ -1,82 +1,22 @@
-# ygp.au — YourGP group site
+# CODING AGENTS: READ THIS FIRST
 
-Static site, no build step. Edit the HTML directly, push to `main`, live in about a minute.
+This is a **handoff bundle** from Claude Design (claude.ai/design).
 
-## What this site is
+A user mocked up designs in HTML/CSS/JS using an AI design tool, then exported this bundle so a coding agent can implement the designs for real.
 
-The group site for YourGP: who we are, our practices, and GP recruitment for both
-Australian-qualified GPs and UK GPs considering a move. Patient bookings, fees and
-doctor profiles live on the individual practice sites, not here.
+## What you should do — IMPORTANT
 
-## Structure
+**Read `website-design-feedback/project/Home.dc.html` in full.** The user had this file open when they triggered the handoff, so it's almost certainly the primary design they want built. Read it top to bottom — don't skim. Then **follow its imports**: open every file it pulls in (shared components, CSS, scripts) so you understand how the pieces fit together before you start implementing.
 
-```
-index.html          Home — balanced group story, two audience paths
-about/              Values, four pillars, six-question clarity framework
-clinics/            Four practices + YourSkin CBR + Canberra Vasectomy
-australian-gps/     Recruitment: Australian-qualified GPs
-uk-gps/             Recruitment: UK GPs relocating
-contact/            Enquiry routing
-css/style.css       Single stylesheet, CSS custom properties
-js/main.js          Mobile menu + accordions only
-```
+**If anything is ambiguous, ask the user to confirm before you start implementing.** It's much cheaper to clarify scope up front than to build the wrong thing.
 
-Header and footer markup is repeated on each page rather than templated — same as
-every other site in this workspace, and it keeps pages editable in one place.
+## About the design files
 
-## Financial detail is gated — read before editing content
+The design medium is **HTML/CSS/JS** — these are prototypes, not production code. Your job is to **recreate them pixel-perfectly** in whatever technology makes sense for the target codebase (React, Vue, native, whatever fits). Match the visual output; don't copy the prototype's internal structure unless it happens to fit.
 
-Remuneration specifics stay **off** this site. They are sent in the information pack
-after someone completes the Microsoft Form. Never publish here:
+**Don't render these files in a browser or take screenshots unless the user asks you to.** Everything you need — dimensions, colors, layout rules — is spelled out in the source. Read the HTML and CSS directly; a screenshot won't tell you anything they don't.
 
-- the service fee split (GP share / base fee / payroll tax reserve)
-- expected take-home or annual billings, in dollars or pounds
-- the first-three-months minimum hourly rate
-- the UK ramp-up guaranteed wage rate
+## Bundle contents
 
-What is fine to publish, matching the Crace careers page: the 1.5% DNA rate, that we
-are predominantly private billing (~90%), "no lock-in contracts, no set hours", and
-visa sponsorship.
-
-Run this before pushing any content change:
-
-```bash
-grep -rniE '61\.9|38\.1|430,?000|700,?000|\$180|\$150|220,000|240,000' --include=*.html --include=*.txt .
-```
-
-It must return nothing.
-
-## Brand
-
-Tokens live at the top of `css/style.css` and match the clinic sites and the print packs.
-
-| Token | Value | Use |
-|-------|-------|-----|
-| `--deep` | `#082622` | Dark sections, headings |
-| `--sage` | `#5A867D` | Borders, rules, surfaces |
-| `--mid` | `#456B63` | Links, buttons, any text on light |
-| `--mint` | `#80B7A2` | Accents, stat numbers, primary CTA |
-
-**Use `--mid`, not `--sage`, for text on light backgrounds.** Sage on white is 4.08:1,
-below the WCAG AA threshold of 4.5:1. Mid is 5.94:1.
-
-The logo is CSS text (`.wordmark`), not an image — the PNG logos in the other repos are
-clinic-specific ("YourGP@Crace") and too low-resolution for modern screens.
-
-## Deployment
-
-GitHub Pages from `main` / root. `CNAME` contains `ygp.au` — do not delete it.
-
-**DNS lives at GoDaddy**, not Cloudflare like the other sites, and ygp.au carries live
-Microsoft 365 email. Only ever touch the A/AAAA records. Leave every MX and mail-related
-TXT record (SPF, DKIM, DMARC) alone.
-
-## Checks
-
-```bash
-# serve locally
-python -m http.server 8765
-
-# internal link check + gating audit
-grep -rn "logo-top.png\|logo-footer.png" --include=*.html .   # should be empty
-```
+- `website-design-feedback/README.md` — this file
+- `website-design-feedback/project/` — the `Website Design Feedback` project files (HTML prototypes, assets, components)
