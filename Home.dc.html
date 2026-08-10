@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;family=Cormorant+Garamond:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;}
+body{margin:0;}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(28px);}to{opacity:1;transform:translateY(0);}}
+</style>
+</helmet>
+<div ref="{{ setRoot }}" style="font-family:'Lato',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;color:oklch(20% 0.02 160);background:#FFFFFF;line-height:1.65;-webkit-font-smoothing:antialiased;">
+
+<nav style="position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,0.97);backdrop-filter:blur(8px);border-bottom:1px solid oklch(89% 0.02 160);height:84px;">
+  <div style="max-width:1180px;margin:0 auto;padding:0 1.5rem;height:100%;display:flex;align-items:center;justify-content:space-between;">
+    <a href="./Home.dc.html" style="display:inline-flex;align-items:center;gap:0.16em;line-height:1;white-space:nowrap;text-decoration:none;">
+      <span style="font-family:'Lato',sans-serif;font-weight:300;text-transform:uppercase;letter-spacing:0.18em;font-size:0.62rem;transform:translateY(-0.04em);color:#456B63;">Your</span>
+      <span style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:1.9rem;letter-spacing:-0.005em;color:#082622;">GP</span>
+    </a>
+    <div style="{{ navLinksStyle }}">
+      <a href="./Home.dc.html" style="font-size:0.8rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#456B63;text-decoration:none;border-bottom:2px solid #80B7A2;padding-bottom:4px;">Home</a>
+      <a href="./About.dc.html" style="font-size:0.8rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:oklch(37% 0.018 160);text-decoration:none;">About</a>
+      <a href="./Clinics.dc.html" style="font-size:0.8rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:oklch(37% 0.018 160);text-decoration:none;">Clinics</a>
+      <div style="position:relative;display:flex;align-items:center;align-self:stretch;" onMouseEnter="{{ openDoctors }}" onMouseLeave="{{ closeDoctors }}">
+        <button type="button" style="font-size:0.8rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:oklch(37% 0.018 160);background:none;border:none;cursor:pointer;padding:0;font-family:'Lato',sans-serif;line-height:1.65;">Doctors ▾</button>
+        <div style="{{ doctorsMenuStyle }}">
+          <a href="#" style="display:block;padding:0.7rem 1.1rem;font-size:0.88rem;color:#082622;text-decoration:none;border-bottom:1px solid oklch(89% 0.02 160);">Australian GPs</a>
+          <a href="#" style="display:block;padding:0.7rem 1.1rem;font-size:0.88rem;color:#082622;text-decoration:none;">UK GPs</a>
+        </div>
+      </div>
+      <a href="#" style="font-size:0.8rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:oklch(37% 0.018 160);text-decoration:none;">Contact</a>
+      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=IKXQ2SNEa0yqgAESdXTJaGhYc1dA2aRNq_7tqUENCfBURjNPQjk3MldQNDBGWlVUWDhHUENSOUZONy4u" target="_blank" rel="noopener noreferrer" style="padding:0.6rem 1.2rem;border-radius:4px;background:#456B63;color:#fff;font-size:0.76rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;white-space:nowrap;">JOIN THE TEAM</a>
+    </div>
+    <button aria-label="Menu" onClick="{{ toggleMobile }}" style="{{ hamburgerBtnStyle }}">
+      <span style="{{ hamburgerBar1 }}"></span>
+      <span style="{{ hamburgerBar2 }}"></span>
+      <span style="{{ hamburgerBar3 }}"></span>
+    </button>
+  </div>
+</nav>
+
+<div style="{{ mobileMenuStyle }}">
+  <a href="./Home.dc.html" onClick="{{ closeMobile }}" style="display:block;padding:0.85rem 0;font-size:1.05rem;font-weight:700;color:#082622;border-bottom:1px solid oklch(89% 0.02 160);text-decoration:none;">Home</a>
+  <a href="./About.dc.html" onClick="{{ closeMobile }}" style="display:block;padding:0.85rem 0;font-size:1.05rem;font-weight:700;color:#082622;border-bottom:1px solid oklch(89% 0.02 160);text-decoration:none;">About</a>
+  <a href="./Clinics.dc.html" onClick="{{ closeMobile }}" style="display:block;padding:0.85rem 0;font-size:1.05rem;font-weight:700;color:#082622;border-bottom:1px solid oklch(89% 0.02 160);text-decoration:none;">Clinics</a>
+  <span style="display:block;margin-top:1.5rem;font-size:0.72rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:oklch(54% 0.014 160);">Doctors</span>
+  <a href="#" onClick="{{ closeMobile }}" style="display:block;padding:0.85rem 0;font-size:1.05rem;font-weight:700;color:#082622;border-bottom:1px solid oklch(89% 0.02 160);text-decoration:none;">Australian GPs</a>
+  <a href="#" onClick="{{ closeMobile }}" style="display:block;padding:0.85rem 0;font-size:1.05rem;font-weight:700;color:#082622;border-bottom:1px solid oklch(89% 0.02 160);text-decoration:none;">UK GPs</a>
+  <a href="#" onClick="{{ closeMobile }}" style="display:block;padding:0.85rem 0;font-size:1.05rem;font-weight:700;color:#082622;border-bottom:1px solid oklch(89% 0.02 160);text-decoration:none;">Contact</a>
+  <div style="margin-top:1.75rem;">
+    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=IKXQ2SNEa0yqgAESdXTJaGhYc1dA2aRNq_7tqUENCfBURjNPQjk3MldQNDBGWlVUWDhHUENSOUZONy4u" target="_blank" rel="noopener noreferrer" style="display:block;text-align:center;padding:0.9rem;border-radius:4px;background:#456B63;color:#fff;font-weight:700;text-decoration:none;">Express Your Interest</a>
+  </div>
+</div>
+
+<main style="padding-top:84px;">
+
+<section style="background:#082622;padding:clamp(3rem,6vw,5.5rem) 0;overflow:hidden;">
+  <div style="max-width:1180px;margin:0 auto;padding:0 1.5rem;display:flex;gap:clamp(2rem,4vw,4rem);align-items:center;flex-wrap:wrap;">
+    <div style="flex:1 1 440px;color:#fff;">
+      <span style="display:block;font-size:0.8rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#80B7A2;margin-bottom:1rem;">YourGP · Canberra</span>
+      <h1 style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:clamp(2.4rem,5vw,3.6rem);line-height:1.1;margin:0 0 1.2rem;color:#fff;">Care. Excellence. <strong style="font-weight:700;">Kaizen</strong></h1>
+      <p style="font-size:clamp(1.05rem,1.5vw,1.25rem);font-weight:300;color:rgba(255,255,255,0.9);max-width:520px;margin:0 0 2rem;">Four GP-led general practices across Canberra, built so that doctors want to stay for their whole careers — and patients get the care that makes possible.</p>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2.75rem;">
+        <a href="./Clinics.dc.html" style="display:inline-flex;align-items:center;padding:0.9rem 1.9rem;border-radius:4px;background:#80B7A2;color:#082622;font-weight:700;text-decoration:none;">Find a practice</a>
+        <a href="#" style="display:inline-flex;align-items:center;padding:0.9rem 1.9rem;border-radius:4px;background:transparent;color:#fff;border:2px solid #80B7A2;font-weight:700;text-decoration:none;">Join us as a GP</a>
+      </div>
+      <sc-if value="{{ showHeroStats }}" hint-placeholder-val="{{ true }}">
+      <div style="display:flex;gap:clamp(1.5rem,3vw,2.75rem);flex-wrap:wrap;">
+        <div><span style="display:block;font-size:2rem;font-weight:700;color:#80B7A2;line-height:1.1;">4</span><span style="display:block;margin-top:0.25rem;font-size:0.74rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.78);">Clinics</span></div>
+        <div><span style="display:block;font-size:2rem;font-weight:700;color:#80B7A2;line-height:1.1;">40+</span><span style="display:block;margin-top:0.25rem;font-size:0.74rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.78);">Consulting Rooms</span></div>
+        <div><span style="display:block;font-size:2rem;font-weight:700;color:#80B7A2;line-height:1.1;">40,000+</span><span style="display:block;margin-top:0.25rem;font-size:0.74rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.78);">Patients / Year</span></div>
+      </div>
+      </sc-if>
+    </div>
+    <div style="flex:1 1 380px;position:relative;max-width:520px;order:{{ heroImageOrder }};">
+      <div style="position:absolute;inset:16px -16px -16px 16px;border:2px solid #5A867D;border-radius:10px;"></div>
+      <div style="position:relative;width:100%;height:clamp(280px,32vw,400px);border-radius:10px;overflow:hidden;box-shadow:0 20px 50px rgba(8,38,34,0.35);">
+        <img src="images/clinic-bright-b.jpg" alt="Consulting room inside a YourGP practice, Canberra" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
+        <img src="images/clinic-bright-a.jpg" alt="Inside a YourGP practice, Canberra" style="{{ heroSlide2 }}">
+        <img src="images/consult-relationship.jpg" alt="A YourGP doctor consulting with a patient" style="{{ heroSlide3 }}">
+        <img src="images/clinic-classic.jpg" alt="Waiting area at a YourGP practice" style="{{ heroSlide4 }}">
+        <img src="images/garema-reception.jpg" alt="Reception at Garema Place Surgery" style="{{ heroSlide5 }}">
+        <div style="position:absolute;left:0;right:0;bottom:14px;display:flex;justify-content:center;gap:0.5rem;">
+          <button type="button" aria-label="Photo 1" onClick="{{ goSlide0 }}" style="{{ heroDot1 }}"></button>
+          <button type="button" aria-label="Photo 2" onClick="{{ goSlide1 }}" style="{{ heroDot2 }}"></button>
+          <button type="button" aria-label="Photo 3" onClick="{{ goSlide2 }}" style="{{ heroDot3 }}"></button>
+          <button type="button" aria-label="Photo 4" onClick="{{ goSlide3 }}" style="{{ heroDot4 }}"></button>
+          <button type="button" aria-label="Photo 5" onClick="{{ goSlide4 }}" style="{{ heroDot5 }}"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding:clamp(3rem,6vw,4.5rem) 0;background:#fff;">
+  <div style="max-width:1180px;margin:0 auto;padding:0 1.5rem;">
+    <div style="text-align:center;max-width:680px;margin:0 auto 2.75rem;">
+      <span style="display:block;font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#456B63;margin-bottom:0.6rem;">Where would you like to go?</span>
+      <h2 style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(1.8rem,3.5vw,2.4rem);color:#456B63;margin:0 0 0.75rem;">Two ways in</h2>
+      <p style="font-size:1.08rem;color:oklch(37% 0.018 160);margin:0;">This site is about YourGP as a group. If you are booking an appointment, each practice runs its own site — that is where you want to be.</p>
+    </div>
+    <div data-reveal-key="paths" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.75rem;">
+
+      <div style="{{ revealPath1 }}">
+        <h3 style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:1.55rem;color:#082622;margin:0 0 0.6rem;">Looking for a GP?</h3>
+        <p style="color:oklch(37% 0.018 160);flex-grow:1;">We have practices at Crace, Denman Prospect, Lyneham and Garema Place in the city, plus dedicated skin cancer and vasectomy services. Each has its own site for appointments, fees, doctors and opening hours.</p>
+        <div style="margin-top:1.5rem;">
+          <a href="./Clinics.dc.html" style="display:inline-flex;padding:0.85rem 1.9rem;border-radius:4px;background:#456B63;color:#fff;font-weight:700;text-decoration:none;">See all practices</a>
+        </div>
+      </div>
+
+      <div style="{{ revealPath2 }}">
+        <h3 style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:1.55rem;color:#082622;margin:0 0 0.6rem;">Are you a GP?</h3>
+        <p style="color:oklch(37% 0.018 160);flex-grow:1;">We built YourGP around a simple idea: give doctors the services and facilities we would want to receive ourselves. Rooms with windows, real nursing and admin support, and the freedom to practise your way.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.75rem;margin-top:1.5rem;">
+          <a href="#" style="display:inline-flex;padding:0.85rem 1.9rem;border-radius:4px;background:#456B63;color:#fff;font-weight:700;text-decoration:none;">Australian GPs</a>
+          <a href="#" style="display:inline-flex;padding:0.85rem 1.9rem;border-radius:4px;background:transparent;color:#456B63;border:2px solid #456B63;font-weight:700;text-decoration:none;">UK GPs</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section style="padding:clamp(3rem,6vw,4.5rem) 0;background:#456B63;color:rgba(255,255,255,0.9);">
+  <div style="max-width:1180px;margin:0 auto;padding:0 1.5rem;">
+    <div style="text-align:center;max-width:680px;margin:0 auto 2.75rem;">
+      <span style="display:block;font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#D6EBE1;margin-bottom:0.6rem;">How we behave</span>
+      <h2 style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(1.8rem,3.5vw,2.4rem);color:#fff;margin:0 0 0.75rem;">Care · Excellence · Kaizen</h2>
+      <p style="font-size:1.08rem;color:rgba(255,255,255,0.8);margin:0;">Three things shape how we work. Every clinic we run, and the way we treat the doctors in them, comes back to these.</p>
+    </div>
+    <div data-reveal-key="values" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.6rem;">
+      <div style="{{ revealValue1 }}">
+        <h3 style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:1.3rem;color:#fff;margin:0 0 0.5rem;">Caring</h3>
+        <p style="color:rgba(255,255,255,0.82);margin:0;">We get the right things done, the right way.</p>
+      </div>
+      <div style="{{ revealValue2 }}">
+        <h3 style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:1.3rem;color:#fff;margin:0 0 0.5rem;">Excellence</h3>
+        <p style="color:rgba(255,255,255,0.82);margin:0;">We take pride in whatever we do.</p>
+      </div>
+      <div style="{{ revealValue3 }}">
+        <h3 style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:1.3rem;color:#fff;margin:0 0 0.5rem;">Kaizen</h3>
+        <p style="color:rgba(255,255,255,0.82);margin:0;">Continuous improvement. We experiment, learn fast, and get a little better every day.</p>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:2.25rem;"><a href="./About.dc.html" style="color:#D6EBE1;text-decoration:none;font-weight:700;">Read more about how we work →</a></p>
+  </div>
+</section>
+
+<section style="padding:clamp(3rem,6vw,4.5rem) 0;background:oklch(97.5% 0.014 95);">
+  <div style="max-width:1180px;margin:0 auto;padding:0 1.5rem;">
+    <div data-reveal-key="media" style="{{ revealMedia }}">
+      <div>
+        <span style="display:block;font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#456B63;margin-bottom:0.6rem;">Why it matters</span>
+        <h2 style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(1.7rem,3vw,2.2rem);color:#082622;margin:0 0 1rem;line-height:1.2;">The best medicine happens in a long-term relationship</h2>
+        <p style="color:oklch(37% 0.018 160);">Good care depends on your GP knowing who you are, your history, and what matters to you. That relationship takes years to build — which is why we spend so much effort making YourGP somewhere doctors want to stay.</p>
+        <p style="color:oklch(37% 0.018 160);">Many of our GPs have looked after the same families for decades. Some are now caring for a fourth generation. Everything else we do — the rooms, the nursing team, the systems — exists to protect that relationship.</p>
+        <p style="margin:0;"><a href="./About.dc.html" style="color:#456B63;font-weight:700;text-decoration:none;">How we are structured →</a></p>
+      </div>
+      <img src="images/consult-relationship.jpg" alt="A YourGP doctor consulting with a patient" style="width:100%;height:clamp(260px,28vw,360px);object-fit:cover;border-radius:10px;box-shadow:0 2px 8px rgba(8,38,34,0.06);display:block;">
+    </div>
+  </div>
+</section>
+
+<section style="padding:clamp(3rem,6vw,4.5rem) 0;background:#fff;">
+  <div style="max-width:1180px;margin:0 auto;padding:0 1.5rem;">
+    <div data-reveal-key="cta" style="{{ revealCta }}">
+      <span style="display:block;font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#80B7A2;margin-bottom:0.6rem;">For doctors</span>
+      <h2 style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(1.8rem,3.5vw,2.3rem);color:#fff;margin:0 0 0.75rem;">A practice worth committing to</h2>
+      <p style="color:rgba(255,255,255,0.85);max-width:620px;margin:0.6rem auto 1.5rem;">We are always glad to hear from excellent GPs — whether you are already practising in Australia or thinking about moving here from the UK. Tell us a little about yourself and we will send you our information pack.</p>
+      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=IKXQ2SNEa0yqgAESdXTJaGhYc1dA2aRNq_7tqUENCfBURjNPQjk3MldQNDBGWlVUWDhHUENSOUZONy4u" target="_blank" rel="noopener noreferrer" style="display:inline-flex;padding:0.9rem 1.9rem;border-radius:4px;background:#80B7A2;color:#082622;font-weight:700;text-decoration:none;">Express your interest</a>
+      <p style="font-size:0.85rem;color:#80B7A2;margin-top:1rem;">Or read the detail first: <a href="#" style="color:#80B7A2;">Australian GPs</a> · <a href="#" style="color:#80B7A2;">UK GPs</a></p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer style="background:#082622;color:rgba(255,255,255,0.75);padding:3rem 0 0;">
+  <div style="max-width:1180px;margin:0 auto;padding:0 1.5rem;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2rem;padding-bottom:2.5rem;">
+      <div>
+        <div style="display:inline-flex;align-items:center;gap:0.16em;margin-bottom:1rem;">
+          <span style="font-family:'Lato',sans-serif;font-weight:300;text-transform:uppercase;letter-spacing:0.18em;font-size:0.6rem;color:#80B7A2;">Your</span>
+          <span style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:1.8rem;color:#fff;">GP</span>
+        </div>
+        <p style="font-size:0.9rem;">GP-led general practice in Canberra. Genuine care, clinical excellence.</p>
+      </div>
+      <div>
+        <h4 style="color:#fff;font-size:0.76rem;letter-spacing:0.14em;text-transform:uppercase;margin:0 0 0.85rem;">Practices</h4>
+        <a href="https://yourgpcrace.com.au" rel="noopener noreferrer" style="display:block;color:rgba(255,255,255,0.75);margin-bottom:0.45rem;font-size:0.9rem;text-decoration:none;">YourGP@Crace</a>
+        <a href="https://yourgpdenman.com.au" rel="noopener noreferrer" style="display:block;color:rgba(255,255,255,0.75);margin-bottom:0.45rem;font-size:0.9rem;text-decoration:none;">YourGP@Denman</a>
+        <a href="https://yourgplyneham.com.au" rel="noopener noreferrer" style="display:block;color:rgba(255,255,255,0.75);margin-bottom:0.45rem;font-size:0.9rem;text-decoration:none;">YourGP@Lyneham</a>
+        <a href="https://garemaplacesurgery.com.au" rel="noopener noreferrer" style="display:block;color:rgba(255,255,255,0.75);margin-bottom:0.45rem;font-size:0.9rem;text-decoration:none;">Garema Place Surgery</a>
+      </div>
+      <div>
+        <h4 style="color:#fff;font-size:0.76rem;letter-spacing:0.14em;text-transform:uppercase;margin:0 0 0.85rem;">Services</h4>
+        <a href="https://yourskincbr.com.au" rel="noopener noreferrer" style="display:block;color:rgba(255,255,255,0.75);margin-bottom:0.45rem;font-size:0.9rem;text-decoration:none;">YourSkin CBR</a>
+        <a href="https://canberravasectomy.com.au" rel="noopener noreferrer" style="display:block;color:rgba(255,255,255,0.75);margin-bottom:0.45rem;font-size:0.9rem;text-decoration:none;">Canberra Vasectomy</a>
+      </div>
+      <div>
+        <h4 style="color:#fff;font-size:0.76rem;letter-spacing:0.14em;text-transform:uppercase;margin:0 0 0.85rem;">YourGP</h4>
+        <a href="./About.dc.html" style="display:block;color:rgba(255,255,255,0.75);margin-bottom:0.45rem;font-size:0.9rem;text-decoration:none;">About</a>
+        <a href="./Clinics.dc.html" style="display:block;color:rgba(255,255,255,0.75);margin-bottom:0.45rem;font-size:0.9rem;text-decoration:none;">Our practices</a>
+        <a href="#" style="display:block;color:rgba(255,255,255,0.75);margin-bottom:0.45rem;font-size:0.9rem;text-decoration:none;">Australian GPs</a>
+        <a href="#" style="display:block;color:rgba(255,255,255,0.75);margin-bottom:0.45rem;font-size:0.9rem;text-decoration:none;">UK GPs</a>
+        <a href="#" style="display:block;color:rgba(255,255,255,0.75);margin-bottom:0.45rem;font-size:0.9rem;text-decoration:none;">Contact</a>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(255,255,255,0.12);padding:1.25rem 0;font-size:0.82rem;color:rgba(255,255,255,0.55);display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;">
+      <span>Copyright YourGP 2026</span>
+      <span>Appointments and patient enquiries: contact your practice directly.</span>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showHeroStats&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Hero&quot;},&quot;heroImageFirst&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Hero&quot;},&quot;heroAutoplay&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Hero carousel&quot;},&quot;heroInterval&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:5,&quot;min&quot;:2,&quot;max&quot;:12,&quot;step&quot;:1,&quot;unit&quot;:&quot;s&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Hero carousel&quot;},&quot;navBreakpoint&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:1080,&quot;min&quot;:768,&quot;max&quot;:1280,&quot;step&quot;:10,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Navigation&quot;}}">
+class Component extends DCLogic {
+  state = { mobileOpen: false, doctorsOpen: false, slide: 0, visible: {}, width: (typeof window !== 'undefined' ? window.innerWidth : 1200) };
+
+  componentDidMount() {
+    this.handleResize = () => this.setState({ width: window.innerWidth });
+    window.addEventListener('resize', this.handleResize);
+    this.startCarousel();
+  }
+
+  componentDidUpdate(prev) {
+    if (prev.heroAutoplay !== this.props.heroAutoplay || prev.heroInterval !== this.props.heroInterval) this.startCarousel();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize);
+    clearInterval(this.timer);
+  }
+
+  startCarousel() {
+    clearInterval(this.timer);
+    if ((this.props.heroAutoplay ?? true) === false) return;
+    const ms = (this.props.heroInterval ?? 5) * 1000;
+    this.timer = setInterval(() => this.setState((s) => ({ slide: (s.slide + 1) % 5 })), ms);
+  }
+
+  goSlide = (i) => { this.setState({ slide: i }); this.startCarousel(); };
+
+  slideStyle(i) {
+    return { position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block', opacity: this.state.slide === i ? 1 : 0, transition: 'opacity 0.7s ease' };
+  }
+
+  dotStyle(i) {
+    const on = this.state.slide === i;
+    return { width: on ? '22px' : '8px', height: '8px', borderRadius: '999px', border: 'none', padding: 0, cursor: 'pointer', background: on ? '#fff' : 'rgba(255,255,255,0.5)', transition: 'width 0.3s, background 0.3s' };
+  }
+
+  setRoot = (el) => { this.root = el; };
+  toggleMobile = () => this.setState((s) => ({ mobileOpen: !s.mobileOpen }));
+  closeMobile = () => this.setState({ mobileOpen: false });
+  openDoctors = () => this.setState({ doctorsOpen: true });
+  closeDoctors = () => this.setState({ doctorsOpen: false });
+
+  reveal(key, delay, extra) {
+    return Object.assign({}, extra, { opacity: 1, transform: 'none' });
+  }
+
+  renderVals() {
+    const isMobile = this.state.width < (this.props.navBreakpoint ?? 1080);
+    const mobileOpen = this.state.mobileOpen;
+    return {
+      showHeroStats: this.props.showHeroStats ?? true,
+      heroSlide2: this.slideStyle(1),
+      heroSlide3: this.slideStyle(2),
+      heroSlide4: this.slideStyle(3),
+      heroSlide5: this.slideStyle(4),
+      heroDot1: this.dotStyle(0),
+      heroDot2: this.dotStyle(1),
+      heroDot3: this.dotStyle(2),
+      heroDot4: this.dotStyle(3),
+      heroDot5: this.dotStyle(4),
+      goSlide0: () => this.goSlide(0),
+      goSlide1: () => this.goSlide(1),
+      goSlide2: () => this.goSlide(2),
+      goSlide3: () => this.goSlide(3),
+      goSlide4: () => this.goSlide(4),
+      heroImageOrder: (this.props.heroImageFirst ?? false) ? -1 : 0,
+      setRoot: this.setRoot,
+      toggleMobile: this.toggleMobile,
+      closeMobile: this.closeMobile,
+      openDoctors: this.openDoctors,
+      closeDoctors: this.closeDoctors,
+      navLinksStyle: { display: isMobile ? 'none' : 'flex', alignItems: 'center', gap: '1.5rem', whiteSpace: 'nowrap' },
+      hamburgerBtnStyle: { display: isMobile ? 'block' : 'none', background: 'none', border: 'none', cursor: 'pointer', padding: '0.5rem' },
+      hamburgerBar1: { display: 'block', width: '24px', height: '2px', background: '#082622', margin: '5px 0', transition: 'transform 0.3s, opacity 0.3s', transform: mobileOpen ? 'rotate(45deg) translate(5px, 5px)' : 'none' },
+      hamburgerBar2: { display: 'block', width: '24px', height: '2px', background: '#082622', margin: '5px 0', transition: 'transform 0.3s, opacity 0.3s', opacity: mobileOpen ? 0 : 1 },
+      hamburgerBar3: { display: 'block', width: '24px', height: '2px', background: '#082622', margin: '5px 0', transition: 'transform 0.3s, opacity 0.3s', transform: mobileOpen ? 'rotate(-45deg) translate(5px, -5px)' : 'none' },
+      doctorsMenuStyle: { display: this.state.doctorsOpen ? 'block' : 'none', position: 'absolute', top: '100%', left: '50%', transform: 'translateX(-50%)', marginTop: 0, minWidth: '190px', background: '#fff', border: '1px solid oklch(89% 0.02 160)', borderRadius: '6px', boxShadow: '0 6px 22px rgba(8,38,34,0.12)', overflow: 'hidden' },
+      mobileMenuStyle: { display: (isMobile && mobileOpen) ? 'block' : 'none', position: 'fixed', top: '84px', left: 0, right: 0, bottom: 0, background: '#fff', zIndex: 99, overflowY: 'auto', padding: '1.5rem 1.5rem 3rem' },
+      revealPath1: this.reveal('paths', 0, { display: 'flex', flexDirection: 'column', background: '#fff', border: '1px solid oklch(89% 0.02 160)', borderTop: '4px solid #80B7A2', borderRadius: '10px', padding: '2.25rem', boxShadow: '0 2px 8px rgba(8,38,34,0.06)' }),
+      revealPath2: this.reveal('paths', 0.1, { display: 'flex', flexDirection: 'column', background: '#fff', border: '1px solid oklch(89% 0.02 160)', borderTop: '4px solid #80B7A2', borderRadius: '10px', padding: '2.25rem', boxShadow: '0 2px 8px rgba(8,38,34,0.06)' }),
+      revealValue1: this.reveal('values', 0, { background: 'rgba(255,255,255,0.09)', border: '1px solid rgba(255,255,255,0.14)', borderRadius: '10px', padding: '1.75rem' }),
+      revealValue2: this.reveal('values', 0.1, { background: 'rgba(255,255,255,0.09)', border: '1px solid rgba(255,255,255,0.14)', borderRadius: '10px', padding: '1.75rem' }),
+      revealValue3: this.reveal('values', 0.2, { background: 'rgba(255,255,255,0.09)', border: '1px solid rgba(255,255,255,0.14)', borderRadius: '10px', padding: '1.75rem' }),
+      revealMedia: this.reveal('media', 0, { display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(340px,1fr))', gap: 'clamp(2rem,4vw,3.5rem)', alignItems: 'center' }),
+      revealCta: this.reveal('cta', 0, { background: '#082622', color: '#fff', borderRadius: '10px', padding: 'clamp(2rem,5vw,2.75rem) 2rem', textAlign: 'center' }),
+    };
+  }
+}
+</script>
+</body>
+</html>
