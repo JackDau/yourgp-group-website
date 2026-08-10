@@ -1,0 +1,234 @@
+# YourGP — Full Site Content
+
+> A group of four GP-led general practices in Canberra, ACT. Vision: genuine care, clinical excellence.
+
+This file contains the full content of ygp.au for language models. Financial detail (service fee split, expected earnings) is deliberately not published on the website or in this file; it is provided in the information pack on request.
+
+---
+
+## Home
+
+YourGP is a group of four GP-led general practices across Canberra, built so that doctors want to stay for their whole careers — and patients get the care that makes possible.
+
+- 4 clinics
+- 40+ consulting rooms
+- 40,000+ patients per year
+
+**Looking for a GP?** We have practices at Crace, Denman Prospect, Lyneham and Garema Place in the city, plus dedicated skin cancer and vasectomy services. Each has its own site for appointments, fees, doctors and opening hours.
+
+**Are you a GP?** We built YourGP around a simple idea: give doctors the services and facilities we would want to receive ourselves. Rooms with windows, real nursing and admin support, and the freedom to practise your way.
+
+**Why it matters.** Good care depends on your GP knowing who you are, your history, and what matters to you. That relationship takes years to build — which is why we spend so much effort making YourGP somewhere doctors want to stay. Many of our GPs have looked after the same families for decades; some are now caring for a fourth generation.
+
+---
+
+## About — How YourGP is built
+
+YourGP is owned by Dr John Deery and Dr Mel Deery. We run four general practices across Canberra — Crace, Denman Prospect, Lyneham and Garema Place in the city — along with two dedicated services, YourSkin CBR for skin cancer medicine and Canberra Vasectomy.
+
+We have always believed the best patient care happens in GP-led practices. So rather than building a business that manages doctors, we built one that serves them: the systems, teams and spaces that let a GP practise excellent medicine, sustainably, for a very long time.
+
+### Our values, in full
+
+- **Caring** — We get the right things done, the right way.
+- **Excellence** — We take pride in whatever we do.
+- **Kaizen** — Continuous improvement. We experiment, learn fast, and improve every day.
+
+### Four pillars, in order
+
+They are sequential. Each one enables the next.
+
+1. **Team Excellence** — Engaged employees are the foundation. Our reception, nursing and admin teams provide the service everything else rests on. *(Gallup Q12 > 4.5, 3% of time in training)*
+2. **GP Service Excellence** — GPs are tenants receiving service and facilities, not employees being managed. Happy doctors do better medicine. *(GP NPS > 80, surveyed every four months)*
+3. **Patient Experience** — Patients receive comprehensive, unhurried, evidence-based care, enabled by the two pillars above. *(Patient NPS > 80, Google average 4.8)*
+4. **Sustainable Enterprise** — Margin protects the mission and funds reinvestment in all the pillars above. *(15% revenue growth p.a., 6% margin on fees)*
+
+### Six questions, answered the same way every time
+
+- **Q1 · Why we exist — Empower great care.** To provide the services and facilities we would want to receive ourselves, so our doctors can deliver exceptional patient care.
+- **Q2 · How we behave — Care · Excellence · Kaizen.** We tell the truth kindly, we do what we say we will do, and we improve a little every day.
+- **Q3 · What we do — Build the conditions.** We build the systems, teams and spaces that let a GP practise world-class medicine, efficiently and sustainably.
+- **Q4 · How we will succeed — Four measured pillars.** Team, GP service, patient experience and a sustainable enterprise, each held to a number we publish to ourselves.
+- **Q5 · What matters now — Clear goals.** We rally around a small set of clear short- and long-term goals, reviewed regularly.
+- **Q6 · Who does what — The team serves the doctors.** Reception, nursing and admin exist to serve our GPs and their patients. The GP's part is clinical excellence and genuine care.
+
+### Recognition
+
+We are the preferred training location for GP registrars in Canberra, and take part in teaching medical students and new GPs. In 2020 we were recognised with an RACGP state award.
+
+---
+
+## Our practices
+
+All practices can be reached on (02) 6109 0000 except Garema Place, which has its own line.
+
+### YourGP@Crace — DPA
+1/5 Baratta Street, Crace ACT 2911. Phone (02) 6109 0000.
+20 consulting rooms, surgical theatre, nurse treatment rooms, Saturday morning clinic.
+https://yourgpcrace.com.au
+
+### YourGP@Denman — DPA
+1B Felstead Vista, Denman Prospect ACT 2611. Phone (02) 6109 0000.
+9 consulting rooms, surgical theatre, nurse treatment rooms.
+https://yourgpdenman.com.au
+
+### YourGP@Lyneham
+62 Brigalow Street, Lyneham ACT 2602, next to Tilley's café. Phone (02) 6109 0000.
+Nursing support on site.
+https://yourgplyneham.com.au
+
+### Garema Place Surgery
+1st Floor, Florina Building, Garema Place, Canberra City ACT 2601. Phone (02) 6257 1000.
+Part of YourGP since June 2026.
+https://garemaplacesurgery.com.au
+
+### YourSkin CBR — skin cancer medicine
+Skin cancer checks, dermoscopy and on-site procedures, run by GPs holding masters degrees in skin medicine or advanced diplomas from an Australian skin cancer college. One doctor uses a FotoFinder for total body imaging. Available at Crace and Denman Prospect.
+https://yourskincbr.com.au
+
+### Canberra Vasectomy
+No-scalpel vasectomy service for Canberra and the surrounding region. Phone (02) 6103 0434.
+https://canberravasectomy.com.au
+
+### DPA note for doctors
+Crace and Denman Prospect are both in a Distribution Priority Area, which matters for moratorium obligations and international medical graduates. Lyneham and Garema Place are non-DPA.
+
+---
+
+## For Australian GPs
+
+### A word from John
+
+We set out to build services and facilities good enough that GPs want to stay their whole careers. Three things shape how we work: genuine care for our people and patients, a commitment to excellence in everything we touch, and kaizen — the belief that we can always do a little better tomorrow than today.
+
+### Six traits of doctors who thrive here
+
+1. **You're clinically excellent, and you stay curious.** Australian general practice gives you significant clinical autonomy. The doctors who flourish here treat that autonomy as both a privilege and an obligation to keep learning.
+2. **You communicate clearly with patients.** Patients must be able to understand you. Non-negotiable: for safety, for trust, and because our billing model depends on patients valuing the consultation.
+3. **You're happy to charge patients for your time.** We are a predominantly private-billing practice. If charging patients feels uncomfortable, this will not be a good fit.
+4. **You work as part of a team.** Reception and nursing are the foundation of the practice. The GPs who do best treat them as colleagues, not support staff.
+5. **You're reliable and consistent.** You turn up, you finish the day, you communicate when something changes.
+6. **You're looking for a long-term home.** We invest heavily in onboarding, mentorship and your patient panel because we expect to be working alongside you for years.
+
+If five or six of these sound like you, we should talk. If only one or two do, we are probably not the right practice for you.
+
+### Designed for doctors
+
+- All consulting rooms have views to the outside — not the windowless rooms common in general practice
+- Crace is a 20-room practice, Denman Prospect a 9-room practice
+- Surgical theatre space and nurse treatment rooms at both; nursing support at every clinic
+- Admin team handles billing, bookings and correspondence
+- Nursing team provides clinical support, patient preparation and health coaching
+- Camera and microphone in every room, which also supports AI transcription
+- About a quarter of our doctors use an AI scribe — entirely their choice, or none
+- We are building our own AI tools to help doctors and admin
+
+Photo albums: Crace https://photos.app.goo.gl/nB4bJeKyw528QdDN9 · Denman https://photos.app.goo.gl/rVZg7LRozqgGF4b66
+
+### Clinical practice
+
+**Autonomy.** You can order CTs, MRIs and other investigations directly — it is your clinical responsibility. Over time your patient panel will reflect you and the clinical choices you make.
+
+**Support when you join.** We start new GPs slowly — as few as two to three patients per hour for the first week or two — then increase your patient flow gradually as you are ready.
+
+**Skin cancer, minor surgery, joint injections.** A strong team of skin cancer doctors with masters degrees or advanced diplomas, happy to share skills and upskill colleagues. Doctors regularly sit in to learn surgical procedures. We can teach and support joint injections.
+
+**Telehealth.** Available where appropriate at all clinics. Denman runs roughly 8–9% of consultations this way, mostly telephone. We do not actively encourage it; face-to-face produces better outcomes.
+
+**Our expectations.** Clear communication with patients; excellent clinical decisions; reliability and consistency; charging appropriately for your time.
+
+**Special interests.** Your panel will reflect your interests over time. Professional development is self-directed — you are a tenant. Some doctors dedicate a day a week to study.
+
+### How we bill
+
+Predominantly private billing — around 90% of consultations, with the remainder bulk-billed, mostly for rapid immunisation clinics, after-care follow-up and higher-rebate item numbers. Patients are told at least twice before arrival that there is an expectation to pay.
+
+When patients pay, they attribute value to the service. Our DNA rate is 1.5%, against 5–7% at bulk-billing clinics.
+
+If a patient falls on hard times we accept the lower Medicare rebate temporarily. If patients will not pay, or will not treat our team with dignity and respect, we move them on — rare, and we are slow to do it.
+
+**No retainers or sign-on bonuses.** Some clinics offer them, but they come with locked-in contracts, patient quotas and high-volume expectations from day one. The flip side is complete freedom: no lock-in contracts, no set hours, no pressure. Demand is high and we are the preferred training location for GP registrars in Canberra.
+
+Service fee split and expected earnings are set out in the information pack on request.
+
+### Hours and leave
+
+- **Standard hours**: typically 8:30am–5:30pm with an hour for lunch. 8:00am–6:00pm builds a panel faster, especially Mondays and Fridays. Some doctors start at 7:30am.
+- **Patients per hour**: 2–3 when starting; established GPs typically 3–4, with around 4 the maximum across an 8–9 hour day.
+- **Leave**: you set your own. Most doctors take 3–5 weeks. Beyond 6 weeks requires a conversation about room utilisation.
+- **Evenings and weekends**: no strict requirements. Mondays and Fridays matter most. The Saturday morning clinic at Crace is excellent for building a panel. We do not work Sundays. We prefer full sessions rather than school hours only.
+- Most doctors work part time, from one day a week up to four or five.
+
+### Getting started
+
+Reduced patient load of 2–3 an hour to begin. We help you record a short introduction video so patients see your communication style before they book. Patients already trust the brand, covering about 80% of the trust gap. Initially mostly same-day bookings, building to a loyal panel.
+
+**DPA and visa sponsorship.** Crace and Denman Prospect are DPA. We offer visa sponsorship for eligible international medical graduates. We do not currently have capacity for Level 1 Supervision for overseas trained doctors requiring supervision.
+
+You can ask to speak with a GP who already works here.
+
+### Why Canberra
+
+- Highest median income in Australia
+- Short commutes
+- Four proper seasons
+- Excellent schools, public and private (Canberra Grammar, Radford, Brindabella)
+- Professional services hub — large public service sector, strong IT market
+- Big city amenities, small city feel
+
+---
+
+## For UK GPs
+
+### How Australian general practice differs from the UK
+
+**Clinical autonomy.** Considerably more than the UK. You order CTs, MRIs and other investigations directly — your clinical responsibility, not a gatekeeping exercise.
+
+**The tenant GP model.** Almost all GPs in Australia work as tenants of their practice, running their own clinical business within it. You are paid for the work you do: no paid leave, no employer-funded superannuation, no study allowance. The flip side is complete freedom — no lock-in contracts, no set hours, no pressure.
+
+**Transition support.** We start new GPs at 2–3 patients per hour for the first week or two, then increase gradually. Established GPs see 3–4 per hour.
+
+**Skin cancer medicine** is a much larger part of Australian general practice than in the UK, and mentorship is available.
+
+**Telehealth and AI scribes** as per the Australian GP information above.
+
+### Six traits of doctors who thrive here
+
+The same six as above, with two differences in emphasis: charging patients is often the biggest adjustment for a UK GP, and we are explicit that if you are looking for a twelve-month adventure before going home, there are practices better suited to that. We would far rather you discovered a mismatch before relocating your family.
+
+### How we bill
+
+Usually the largest cultural shift for a doctor arriving from the NHS. Around 90% of consultations privately billed. DNA rate 1.5% against 5–7% at bulk-billing clinics. Earnings detail, in dollars and pounds, is in the UK information pack on request.
+
+### Visa and relocation
+
+**We sponsor your visa.** Sponsorship is part of how we welcome UK GPs. We work through it with you alongside your AHPRA registration. The two DPA clinics are what make this possible.
+
+**Income certainty while you settle.** We do not offer a relocation allowance, deliberately — we do not want to feel pressured to earn a return on it by pushing you to see patients quickly. Instead, from the day you start, while you ramp from two to three patients an hour, we employ you on a guaranteed wage with superannuation and paid leave on top. That typically covers two to six weeks: enough to open bank accounts, sort tax, find somewhere to live and learn the Australian system before moving to the tenant model. The rate is in the information pack.
+
+**Timelines.** These vary considerably — AHPRA registration, visa processing and family relocation each have their own moving parts and overlap rather than run in sequence. Registration starts with the Medical Board of Australia (medicalboard.gov.au) and AHPRA (ahpra.gov.au). We share the current step-by-step guides we rely on when a doctor gets in touch.
+
+### Life in Canberra
+
+Schools (strong public system plus Canberra Grammar, Radford, Brindabella); partner careers (large public service sector, strong IT market); short commutes; four proper seasons; highest median income in Australia; big city amenities with a small city feel.
+
+### Getting started
+
+Reduced patient load to begin, time to learn Australian prescribing and referral pathways, and a short introduction video for patients. You can ask to speak with a UK GP who has already made the move.
+
+---
+
+## Contact
+
+**Patients** should contact their practice directly — they hold the appointment book, records and billing.
+
+- YourGP@Crace — 1/5 Baratta Street, Crace ACT 2911 — (02) 6109 0000
+- YourGP@Denman — 1B Felstead Vista, Denman Prospect ACT 2611 — (02) 6109 0000
+- YourGP@Lyneham — 62 Brigalow Street, Lyneham ACT 2602 — (02) 6109 0000
+- Garema Place Surgery — 1st Floor, Florina Building, Garema Place, Canberra City ACT 2601 — (02) 6257 1000
+
+**Doctors** — express interest via the Microsoft Form linked from every page, or email Dr John Deery at dr.john.deery@ygp.au.
+
+**Nurses, admin and general enquiries** — the same form reaches us; note which role interests you. General business enquiries: admin@ygp.au.
+
+**Clinical or urgent matters** are not monitored on these addresses. Contact your practice, or call 000 in an emergency.
