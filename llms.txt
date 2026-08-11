@@ -59,6 +59,9 @@ No-scalpel vasectomy service for Canberra and surrounds.
 
 ## For Doctors
 
+- **GP meetings**: The group meets as a body of doctors every two months to discuss clinical matters and practice operations
+- **GP feedback**: Satisfaction surveyed formally every four months against a published target (GP NPS > 80), with informal feedback sought continuously between surveys
+- **Social**: Christmas party, mid-year party, and a YourGP tennis meet-up through the year
 - **Visa sponsorship**: Available for eligible international medical graduates at the two DPA clinics
 - **Express interest**: Microsoft Form linked from every page of ygp.au
 - **Note**: Detailed remuneration information (service fee split, expected earnings) is provided in the information pack on request, not published on the site.
