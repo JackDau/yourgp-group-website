@@ -48,13 +48,13 @@ Published at https://ygp.au/about/#for-gps. This is the recruitment section of t
 
 **What we'd ask of you.** Clinical excellence and staying curious (consistently poor clinical decisions are the one thing we would part ways over). Reliability. Playing as part of the team — reception and nursing are colleagues, not support staff. Billing consistently with how the practice bills, around 90% private, framed as fairness rather than revenue.
 
-### Our values, in full
+### Our values in full
 
 - **Caring** — We get the right things done, the right way.
 - **Excellence** — We take pride in whatever we do.
 - **Kaizen** — Continuous improvement. We experiment, learn fast, and improve every day.
 
-### Four pillars, in order
+### Four pillars in order
 
 They are sequential. Each one enables the next.
 
@@ -63,7 +63,7 @@ They are sequential. Each one enables the next.
 3. **Patient Experience** — Patients receive comprehensive, unhurried, evidence-based care, enabled by the two pillars above. *(Patient NPS > 80, Google average 4.8)*
 4. **Sustainable Enterprise** — Margin protects the mission and funds reinvestment in all the pillars above. *(15% revenue growth p.a., 6% margin on fees)*
 
-### Six questions, answered the same way every time
+### Six questions answered the same way every time
 
 - **Q1 · Why we exist — Empower great care.** To provide the services and facilities we would want to receive ourselves, so our doctors can deliver exceptional patient care.
 - **Q2 · How we behave — Care · Excellence · Kaizen.** We tell the truth kindly, we do what we say we will do, and we improve a little every day.

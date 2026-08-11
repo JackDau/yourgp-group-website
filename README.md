@@ -74,7 +74,7 @@ The `--include` filters scope the search to published files. They are not option
 tidiness: without them the grep matches the pattern printed in this README and reports
 a false positive every time.
 
-### The soft check — read the hits, do not just count them
+### The soft check — read the hits rather than counting them
 
 ```bash
 grep -rniE 'service fee split|take.home|guarantee' \
