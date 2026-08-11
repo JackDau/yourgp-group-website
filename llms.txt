@@ -59,8 +59,6 @@ No-scalpel vasectomy service for Canberra and surrounds.
 
 ## For Doctors
 
-- **Australian GPs**: https://ygp.au/australian-gps/
-- **UK GPs relocating to Australia**: https://ygp.au/uk-gps/
 - **Visa sponsorship**: Available for eligible international medical graduates at the two DPA clinics
 - **Express interest**: Microsoft Form linked from every page of ygp.au
 - **Note**: Detailed remuneration information (service fee split, expected earnings) is provided in the information pack on request, not published on the site.
@@ -70,6 +68,4 @@ No-scalpel vasectomy service for Canberra and surrounds.
 - [Home](https://ygp.au/) — who YourGP is, and where to go next
 - [About](https://ygp.au/about/) — values, four pillars, six-question clarity framework
 - [Our practices](https://ygp.au/clinics/) — all practices and services with addresses and phone numbers
-- [Australian GPs](https://ygp.au/australian-gps/) — recruitment information for Australian-qualified GPs
-- [UK GPs](https://ygp.au/uk-gps/) — recruitment information for UK GPs considering relocation
 - [Contact](https://ygp.au/contact/) — how to reach us

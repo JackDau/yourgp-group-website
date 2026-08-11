@@ -49,11 +49,11 @@ const PAGES = [
 ];
 
 // Anchor text -> destination. Everything else stays as-is.
+// The Australian GPs and UK GPs pages are archived under _archive/ and are no
+// longer published, so nothing may point at them.
 const LINK_TARGETS = [
-  [/^australian gps$/i, 'australian-gps/'],
-  [/^uk gps$/i, 'uk-gps/'],
   [/^contact$/i, 'contact/'],
-  [/^join us as a gp$/i, 'australian-gps/'],
+  [/^join us as a gp$/i, 'about/'],
 ];
 
 function buildHead(page) {
