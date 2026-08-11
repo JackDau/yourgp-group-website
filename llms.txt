@@ -59,6 +59,7 @@ No-scalpel vasectomy service for Canberra and surrounds.
 
 ## For Doctors
 
+- **Consulting rooms**: Generously sized, and every room has a window to the outside
 - **GP meetings**: The group meets as a body of doctors every two months to discuss clinical matters and practice operations
 - **GP feedback**: Satisfaction surveyed formally every four months against a published target (GP NPS > 80), with informal feedback sought continuously between surveys
 - **Social**: Christmas party, mid-year party, and a YourGP tennis meet-up through the year
