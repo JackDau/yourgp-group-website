@@ -55,7 +55,7 @@ No-scalpel vasectomy service for Canberra and surrounds.
 - **Values**: Caring, Excellence, Kaizen (continuous improvement)
 - **Model**: GPs are tenants receiving service and facilities, not employees being managed
 - **Four sequential pillars**: Team Excellence, GP Service Excellence, Patient Experience, Sustainable Enterprise
-- **Billing**: Predominantly private billing (around 90% of consultations). DNA rate 1.5%.
+- **Billing**: Predominantly private billing (around 90% of consultations). DNA (did-not-attend) rate 1.25% across the group, and 0.25% at Garema Place, against 5–7% at a typical bulk-billing clinic.
 
 ## For Doctors
 
@@ -66,6 +66,6 @@ No-scalpel vasectomy service for Canberra and surrounds.
 ## Pages
 
 - [Home](https://ygp.au/) — who YourGP is, and where to go next
-- [About](https://ygp.au/about/) — values, four pillars, six-question clarity framework
+- [About](https://ygp.au/about/) — values, four pillars, six-question clarity framework, and "What's in it for you" (https://ygp.au/about/#for-gps): patient demand, how we bill, hours and leave, colleagues, teaching, and what we ask of a GP in return
 - [Our practices](https://ygp.au/clinics/) — all practices and services with addresses and phone numbers
 - [Contact](https://ygp.au/contact/) — how to reach us

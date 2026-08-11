@@ -34,7 +34,7 @@ const PAGES = [
     up: '../',
     self: 'about',
     title: 'About YourGP — How We Work',
-    desc: 'How YourGP is built: our values, the four sequential pillars we measure ourselves against, and the six questions every part of the practice answers the same way.',
+    desc: 'How YourGP is built: our values, the four sequential pillars we measure ourselves against, and what practising here looks like for a GP — patient demand, how we bill, hours and leave, and teaching.',
     canonical: 'https://ygp.au/about/',
   },
   {

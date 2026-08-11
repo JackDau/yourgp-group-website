@@ -28,6 +28,24 @@ YourGP is owned by Dr John Deery and Dr Mel Deery. We run four general practices
 
 We have always believed the best patient care happens in GP-led practices. So rather than building a business that manages doctors, we built one that serves them: the systems, teams and spaces that let a GP practise excellent medicine, sustainably, for a very long time.
 
+### What's in it for you — for doctors
+
+Published at https://ygp.au/about/#for-gps. This is the recruitment section of the About page.
+
+**Will I be busy?** Demand runs ahead of the capacity we have to meet it, so we are not asking anyone to build a practice from scratch. Our established doctors run at better than 98% utilisation across the year, and the GPs who have joined most recently filled their books within a week or two. Garema Place, our city practice, saw about 32,000 appointments across 6,000 patients last financial year out of ten consulting rooms.
+
+**How we bill.** About 90% of consultations are privately billed; the rest is bulk billing, mostly rapid immunisation clinics, after-care follow-up and the higher-fee Medicare items. Patients pay on the day and have been told at least twice to expect it. The DNA (did-not-attend) rate is **1.25% across the group** and **0.25% at Garema Place**, against **5–7% at a typical bulk-billing clinic** — every no-show is an unpaid hour of a GP's time. If a patient genuinely falls on hard times we take the Medicare rebate for a while and resume charging later; patients who will not pay, or will not treat the team with dignity, are moved on. If charging patients feels uncomfortable, this is not the right practice.
+
+**Service fee and take-home earnings are not published.** That question is answered properly in the information pack, which sets out the service fee split, what established GPs are billing, what that means in take-home terms, and how a new GP is supported while their book fills. Request it via the Microsoft Form linked from every page.
+
+**Hours and leave.** Open 8am to 6pm, GPs set their own hours within that; no Sundays. Mondays and Fridays matter most for filling a book. Full sessions (a whole morning or afternoon) are preferred over school-hours-only. Saturday mornings run on a semi-regular roster, roughly one a month. Two to three patients an hour while settling in; most established GPs sit at three to four an hour across an eight to nine hour day. Most doctors take three to five weeks leave; six is comfortably accommodated; beyond that is a conversation about room utilisation.
+
+**The colleagues around you.** Each practice has an established, experienced GP cohort with a lead GP who knows the patients and the local referral network, so a GP's list is managed properly while they are away. Across the group there are GPs holding masters degrees and advanced diplomas in skin medicine for procedural work.
+
+**Teaching, training and special interests.** We are the preferred training location for GP registrars in Canberra. We host ANU medical students on placement and registrars through the RACGP pathway, and in 2020 we were recognised with an RACGP state award. Supervision opportunities are available for those who want to teach. Mentoring and upskilling in skin cancer, minor surgery and joint injections is available — see https://yourskincbr.com.au.
+
+**What we'd ask of you.** Clinical excellence and staying curious (consistently poor clinical decisions are the one thing we would part ways over). Reliability. Playing as part of the team — reception and nursing are colleagues, not support staff. Billing consistently with how the practice bills, around 90% private, framed as fairness rather than revenue.
+
 ### Our values, in full
 
 - **Caring** — We get the right things done, the right way.
@@ -51,10 +69,6 @@ They are sequential. Each one enables the next.
 - **Q4 · How we will succeed — Four measured pillars.** Team, GP service, patient experience and a sustainable enterprise, each held to a number we publish to ourselves.
 - **Q5 · What matters now — Clear goals.** We rally around a small set of clear short- and long-term goals, reviewed regularly.
 - **Q6 · Who does what — The team serves the doctors.** Reception, nursing and admin exist to serve our GPs and their patients. The GP's part is clinical excellence and genuine care.
-
-### Recognition
-
-We are the preferred training location for GP registrars in Canberra, and take part in teaching medical students and new GPs. In 2020 we were recognised with an RACGP state award.
 
 ---
 
